@@ -7,6 +7,7 @@ sidebar_position: 3
 
 批量获取歌词文本，并返回 JSON 格式。
 
+`lrcapi.lyrics.advance`
 ## API价格
 
 - 计费标准：按量付费

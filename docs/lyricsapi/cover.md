@@ -7,6 +7,8 @@ sidebar_position: 4
 
 获取歌词封面图片。
 
+`lrcapi.cover`
+
 ## API价格
 
 - 计费标准：按量付费

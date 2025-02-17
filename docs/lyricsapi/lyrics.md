@@ -7,6 +7,8 @@ sidebar_position: 2
 
 响应单条 lrc 格式的歌词文本。
 
+`lrcapi.lyrics`
+
 ## API价格
 
 - 计费标准：按量付费
