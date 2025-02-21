@@ -10,7 +10,7 @@ sidebar_position: 3
 `lrcapi.lyrics.advance`
 ## API价格
 
-- 计费标准：按量付费
+- 计费标准：按次计费
 - 价格：0.001元/条 | 1元/1000条
 
 ## 请求方式
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
 ```bash
 curl --location --request GET 'http://liapi.lrc.cx/api/lrcapi/jsonapi?title=晴天&artist=周杰伦&album=叶惠美' \
---header 'Authorization: your_passkey'
+--header 'Authorization: your_token'
 ```
 
 </TabItem>
@@ -49,7 +49,7 @@ url = "http://liapi.lrc.cx/api/lrcapi/jsonapi?title=晴天&artist=周杰伦&albu
 
 payload={}
 headers = {
-  'Authorization': 'your_passkey'
+  'Authorization': 'your_token'
 }
 
 response = requests.request("GET", url, headers=headers, data=payload)
@@ -62,7 +62,7 @@ print(response.text)
 
 ```js
 var myHeaders = new Headers();
-myHeaders.append("Authorization", "your_passkey");
+myHeaders.append("Authorization", "your_token");
 
 var requestOptions = {
   method: 'GET',

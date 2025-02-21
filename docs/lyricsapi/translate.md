@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## API价格
 
-- 计费标准：按量付费
+- 计费标准：按次计费
 - 价格：0.01元/条 | 1元/100条
 
 ## 请求方式
@@ -20,8 +20,6 @@ sidebar_position: 5
 
 ```json title="请求体"
 {
-  "title": "晴天",
-  "artist": "周杰伦",
-  "album": "叶惠美"
+  "text": "歌词文本",
 }
 ```

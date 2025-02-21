@@ -30,18 +30,18 @@ export default function Home() {
 
         <div className={styles.sections}>
           <div className={styles.section}>
-            <h2>Support Me</h2>
-            <p>Give me a star at <a href="https://github.com/username">GitHub</a></p>
+            <h2>支持我</h2>
+            <p>在<a href="https://github.com/hisatri/lrcapi">GitHub</a>上给我一个Star</p>
           </div>
           
           <div className={styles.section}>
-            <h2>About Me</h2>
-            <p>now working at bytedance</p>
+            <h2>这是什么</h2>
+            <p>一个API接口聚合平台</p>
           </div>
           
           <div className={styles.section}>
-            <h2>Contact Me</h2>
-            <p>Wechat: *</p>
+            <h2>联系方式</h2>
+            <p>Telegram: <a href="https://t.me/MatsuzakaSatona">@MatsuzakaSatona</a></p>
           </div>
         </div>
       </main>

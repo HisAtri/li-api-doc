@@ -11,7 +11,7 @@ sidebar_position: 2
 
 ## API价格
 
-- 计费标准：按量付费
+- 计费标准：按次计费
 - 价格：0元/条 <span class="apiLabel freeLabel">Free</span>
 
 ## 请求方式
@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 
 ```bash
 curl -X GET 'https://liapi.lrc.cx/api/lyrics/single?title=晴天&artist=周杰伦' \
-  -H 'Authorization: your_passkey'
+  -H 'Authorization: your_token'
 ```
 
 </TabItem>
@@ -56,7 +56,7 @@ response = requests.get('https://liapi.lrc.cx/api/lyrics/single',
     'artist': '周杰伦'
     },
     headers={
-      'Authorization': 'your_passkey'
+      'Authorization': 'your_token'
     }).text
 
 print(response)
@@ -67,7 +67,7 @@ print(response)
 
 ```js
 var myHeaders = new Headers();
-myHeaders.append("Authorization", "your_passkey");
+myHeaders.append("Authorization", "your_token");
 
 var requestOptions = {
   method: 'GET',
